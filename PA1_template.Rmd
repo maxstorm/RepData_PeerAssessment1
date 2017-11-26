@@ -2,11 +2,13 @@
 title: "Project Week 2"
 author: "MM"
 date: "26 November 2017"
-output: html_document
+output:
+  md_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r opts, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "figure/")
 ```
 
 ## 1 Loading and preprocessing the data
